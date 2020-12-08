@@ -27,9 +27,9 @@
 
 ### Rota para Web
 
-   Foram criadas duas rotas:
-   A principal que lista as moedas cadastradas no banco (/)
-   A de detalhes da moeda escolhida (/moeda/{code})
+    Foram criadas duas rotas:
+    A principal que lista as moedas cadastradas no banco (/)
+    A de detalhes da moeda escolhida (/moeda/{code})
 
 
 

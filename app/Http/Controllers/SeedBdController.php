@@ -38,6 +38,7 @@ class SeedBdController extends Controller
              $low  = $value['low'];
              $bid  = $value['bid'];
              $ask  = $value['ask'];
+             $data = date('Y-m-d H:i:s');
 
              $insert = DB::table('tbl_coins')->insert(
                 [
@@ -48,7 +49,8 @@ class SeedBdController extends Controller
                  'high'   => $high,
                  'low'    => $low,
                  'bid' => $bid,
-                 'ask' => $ask                 
+                 'ask' => $ask,
+                 'created_at' => $data                 
                 ]               
             ); 
         }
